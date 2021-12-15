@@ -10,9 +10,9 @@ Enter Second Number:
 <?php  
     if(isset($_POST['submit']))  
     {  
-       <script type="text/javascript">
-        window.location.href="http://localhost:5501/index.html"
-        </script>
+//        <script type="text/javascript">
+//         window.location.href="http://localhost:5501/index.html"
+//         </script>
         $number1 = $_POST['number1'];  
         $number2 = $_POST['number2'];  
         $sum =  $number1+$number2;     
