@@ -1,12 +1,12 @@
-<html>  
-<body>  
-<form method="post">  
+<!-- <html>  
+<body>   -->
+<!-- <form method="post">  
 Enter First Number:  
 <input type="number" name="number1" /><br><br>  
 Enter Second Number:  
 <input type="number" name="number2" /><br><br>  
 <input  type="submit" name="submit" value="Add">  
-</form>  
+</form>   -->
 <?php  
     if(isset($_POST['submit']))  
     {  
@@ -16,5 +16,5 @@ Enter Second Number:
 echo "The sum of $number1 and $number2 is: ".$sum;   
 }  
 ?>  
-</body>  
-</html> 
+<!-- </body>  
+</html>  -->
